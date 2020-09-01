@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -57,38 +56,13 @@
         <div class="row">
           <div class="column column-65">
             <h2 class="newsColumnTitle">News List</h2>
-
             <ul class="newsList">
-              <li>
-                <article class="news">
-                  <header>
-                    <h3>Sample news title</h3>
-                  </header>
-                  <section class="newsDetails">
-                    <ul>
-                      <li><strong>Section Name:</strong> Sample Section</li>
-                      <li><strong>Publication Date:</strong> 06.12.2018</li>
-                    </ul>
-                  </section>
-                  <section class="newsActions">
-                    <a href="https://theguardian.com" class="button">Full article</a>
-                    <button class="button button-outline">Read Later</button>
-                  </section>
-                </article>
-              </li>
             </ul>
           </div>
           <div class="column column-55">
             <h2 class="newsColumnTitle">Read Later</h2>
 
             <ul class="readLaterList">
-              <li>
-                <h4 class="readLaterItem-title">Saved news title</h4>
-                <section>
-                  <a href="https://theguardian.com" class="button button-clear">Read</a>
-                  <button class="button button-clear">Remove</button>
-                </section>
-              </li>
             </ul>
           </div>
         </div>
@@ -96,6 +70,7 @@
       <!-- ./News Section -->
     </main>
 
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./GuardianNewsApiService.js"></script>
   </body>
 </html>

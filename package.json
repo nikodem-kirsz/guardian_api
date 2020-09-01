@@ -8,16 +8,19 @@
   },
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "parcel serve src/index.html"
+    "dev": "parcel serve src/index.html",
+    "test": "jest"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "eslint": "^7.5.0",
     "husky": "^4.2.5",
+    "jest": "^26.4.2",
     "lint-staged": "^10.2.11",
     "parcel": "^2.0.0-beta.1",
     "prettier": "^2.0.5"
   },
+  "type": "module",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
